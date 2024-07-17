@@ -25,11 +25,8 @@ public class SecondLargestElement {
         
         int arr[]={11,23,44,22,46,99,88};
         int s=SecondLargest(arr);
-<<<<<<< HEAD
         System.out.println("Second Largest"+s);
-=======
         System.out.println("Second Largest "+s);
->>>>>>> ac6cdbd (14-7-24)
     }
     
 }
