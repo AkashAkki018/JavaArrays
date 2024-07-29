@@ -1,9 +1,6 @@
 package Arrays;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> ac6cdbd (14-7-24)
+<
 public class FrequencyOfElementsInArray {
 
     public static void main(String[] args) {
