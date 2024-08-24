@@ -1,6 +1,6 @@
-package Arrays;
 
-<
+
+
 public class FrequencyOfElementsInArray {
 
     public static void main(String[] args) {

@@ -7,16 +7,20 @@ class moveZeroes {
         }
 
         int z = 0; // Index to place the non-zero element
-
+        int i;
         // Traverse the array
-        for (int i = 0; i < nums.length; i++) {
+        for ( i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-                // Swap elements
-                int temp = nums[z];
-                nums[z] = nums[i];
-                nums[i] = temp;
-                z++; // Increment the index for non-zero elements
+            
+                nums[z]=nums[i];
+                z++;
             }
+        }
+        while (z<nums.length) {
+
+            nums[z]=0;
+            z++;
+            
         }
     }
 

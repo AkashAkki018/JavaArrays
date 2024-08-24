@@ -1,4 +1,3 @@
-package Arrays;
 
 public class RightRotate {
     public static void main(String[] args) {
