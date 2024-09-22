@@ -40,6 +40,7 @@ public class AccentureEx3 {
         System.out.println("Enter M");
         int M=sc.nextInt();
         System.out.println(nearest(Num, M));
+        
 
     }
     

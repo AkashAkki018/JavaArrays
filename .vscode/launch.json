@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AccentureEx5",
+            "request": "launch",
+            "mainClass": "AccentureEx5",
+            "projectName": "JavaArrays_b8b9b9a8"
+        },
+        {
+            "type": "java",
+            "name": "AccentureEx4",
+            "request": "launch",
+            "mainClass": "AccentureEx4",
+            "projectName": "JavaArrays_b8b9b9a8"
+        },
+        {
+            "type": "java",
+            "name": "RightRotate",
+            "request": "launch",
+            "mainClass": "RightRotate",
+            "projectName": "JavaArrays_b8b9b9a8"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestFrequency",
+            "request": "launch",
+            "mainClass": "SecondLargestFrequency",
+            "projectName": "JavaArrays_b8b9b9a8"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

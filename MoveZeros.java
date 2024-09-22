@@ -1,7 +1,7 @@
 
 
 class moveZeroes {
-    public static void moveZeroes(int[] nums) {
+    public static void movezeroes(int[] nums) {
         if (nums.length < 2) {
             return;
         }
@@ -26,7 +26,7 @@ class moveZeroes {
 
     public static void main(String[] args) {
         int[] nums = {0, 1, 0, 3, 12};
-        moveZeroes(nums);
+        movezeroes(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.print(nums[i] + " ");
         }

@@ -1,12 +1,12 @@
-package Arrays;
 
-public class RightRotate {
+
+public class RightRotate1 {
     public static void main(String[] args) {
         
         int a1[]={1,2,3,4,5,6};
         
 
-        int n=2;
+        int n=3;
         for(int i=0;i<n;i++)
         {
             int j,last;

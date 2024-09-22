@@ -3,7 +3,7 @@ class majorityElement {
 
         int m=nums[0];
         int c=1;
-        for(int i=0;i<nums.length;i++)
+        for(int i=1;i<nums.length;i++)
         {
             if(m==nums[i])
             {
@@ -24,7 +24,7 @@ class majorityElement {
     }
     public static void main(String[] args) {
         
-        int nums[]={1,2,3,4,1,1};
+        int nums[]={1,2,3,4,5,6,6};
         int r=majorityE(nums);
         System.out.println(r);
 
